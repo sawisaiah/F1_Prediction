@@ -1,9 +1,3 @@
-# import warnings
-# from sklearn.exceptions import UndefinedMetricWarning
-
-# # Suppress the warning
-# warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
-
 # import the streamlit library
 
 import pandas as pd
@@ -72,6 +66,6 @@ if name:
     if button_clicked:
         
         if result==0:
-            st.success(f"Congratulation {name}. I am approving your visa and will be keeping your passport and come pick your visa and passport within 7 days")
+            st.success(f"Congratulation {name}. You have a very high chance of getting Student Visa.")
         else:
-            st.success(f"I'm sorry {name}. You are not qualify for the visa. Do apply again")
+            st.error(f"I'm sorry {name}. You are not qualify for the visa. Do apply again")
