@@ -1,8 +1,8 @@
-import warnings
-from sklearn.exceptions import UndefinedMetricWarning
+# import warnings
+# from sklearn.exceptions import UndefinedMetricWarning
 
-# Suppress the warning
-warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
+# # Suppress the warning
+# warnings.filterwarnings("ignore", category=UndefinedMetricWarning)
 
 # import the streamlit library
 
